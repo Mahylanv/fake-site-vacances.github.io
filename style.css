@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('image.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+ .photo {
+ 	justify-content: center;
+ 	display: flex;
+ }
+
+img {
+	width: 200px;
+	border: 5px solid skyblue;
+	border-radius: 35px;
+	-webkit-box-shadow: 12px 9px 12px 8px rgba(0,0,0,0.69);
+	box-shadow: 12px 9px 12px 8px rgba(0,0,0,0.69);
+	cursor: pointer;
+	margin: 50px 100px;
+}
+
+
+img:hover { 
+	box-shadow: none; 
+	transition: 0.3s; 
+}
+
+h1 {
+	width: 700px;
+	border: 8px double lightblue;
+	padding: 5px;
+	color: skyblue;
+	font-size: 100px;
+	border-radius: 15px;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+p {
+	font-size: 30px;
+	letter-spacing: 1px;
+	opacity: 1; 
+}
+
+div {
+	background-color: white; 
+	height: 400px;
+	width: 600px;
+	padding: 55px;
+	opacity: 0.8;
+	margin: 100px auto ; 
+	border-radius: 10px; 
+}
+
+div:hover {
+	opacity: 1;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+fieldset {
+	margin: 100px 0px 0px 0px;
+	background-color: white;
+	opacity: 0.9;
+	height: 150px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1520px) {
+	.photo {
+		text-align: center;
+		display: 	block;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	h1 {
+		width: 	70%;
+		font-size: 	55px;
+	}
+
+	header img {
+		margin: 25px 50px;
+	}
+
+	#paysage div{
+		width: 	60%;
+	}
+
+	#paysage p {
+		font-size: 	25px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#paysage p {
+		font-size: 	17px;
+	}
+}
